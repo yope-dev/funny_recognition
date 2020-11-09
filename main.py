@@ -6,7 +6,7 @@ import os
 import numpy as np
 from random import randint
 from PIL import ImageFont, ImageDraw, Image
-token = '1442311253:AAF7zzwp1snLOU4-pQxUcxvYvGhbTFSQpLo'
+token = 'token'
 bot = telebot.TeleBot(token=token)
 
 
