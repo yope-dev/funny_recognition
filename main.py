@@ -70,6 +70,7 @@ def handle_reply_photo(message):
     except Exception as e:
         print(e)
 
+        
 def random_text():
     with open("./Sentences.json", "r") as read_file:
         data = json.load(read_file)
